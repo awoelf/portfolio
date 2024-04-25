@@ -1,23 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Kiwi+Maru&display=swap');
+
 :root {
   --content-width: 1120px;
   --container-width: 810px;
 
-  --light-primary-color: 255, 255, 255;
-  --light-secondary-color: #dddddd;
-  --light-tertiary-color: #272822;
-  --light-text-color: black;
+  --light-primary-color: 242, 233, 222;
+  --light-secondary-color: #9893a5;
+  --light-tertiary-color: #797593;
+  --light-text-color: #575279;
 }
 
-@font-face {
-  font-family: Lato;
+.fira-mono-regular {
+  font-family: "Fira Mono", monospace;
   font-weight: 400;
-  src: url("/fonts/Lato-Regular.ttf");
+  font-style: normal;
 }
 
-@font-face {
-  font-family: Lato;
+.fira-mono-bold {
+  font-family: "Fira Mono", monospace;
   font-weight: 700;
-  src: url("/fonts/Lato-Bold.ttf");
+  font-style: normal;
+}
+
+.kiwi-maru-regular {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kiwi-maru-medium {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 html {
@@ -381,9 +395,9 @@ table td {
 }
 
 .home-about .avatar img {
-  border-radius: 50%;
+  border-radius: 0%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Avatar sizes (default is M) - XS, S, M, L, XL */

@@ -1,4 +1,31 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'gokarna'
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Alexis Woelffer"
+theme = "gokarna"
+
+[params]
+    description = "Finance Student and Programmer"
+    avatarURL = "https://64.media.tumblr.com/ea04acf7a44f5e11354bf107ca7eeb94/3327f57b9bb493b7-20/s400x600/da8bd2575d1a8c358988473a3133a36120ef5f9e.pnj"
+    avatarSize = "size-l"
+    socialIcons = [
+        {name = "linkedin", url = "https://www.linkedin.com/in/awoelf/"},
+        {name = "github", url = "https://github.com/awoelf"},
+    ]
+    accentColor = "#eb6f92"
+
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        url = "/posts/"
+        name = "Posts"
+        weight = 1
+    [[menu.main]]
+        identifier = "examplework"
+        url = "/examples/"
+        name = "Example Work"
+        weight = 2
+    [[menu.main]]
+        identifier = "resume"
+        url = "/resume/"
+        name = "Resume"
+        weight = 3
