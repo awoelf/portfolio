@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://awoelf-portfolio.netlify.app/"
 languageCode = "en-us"
 title = "Alexis Woelffer"
 theme = "gokarna"
@@ -10,13 +10,14 @@ theme = "gokarna"
     socialIcons = [
         {name = "linkedin", url = "https://www.linkedin.com/in/awoelf/"},
         {name = "github", url = "https://github.com/awoelf"},
+        {name = "email", url = "mailto:awoelf@outlook.com"}
     ]
     accentColor = "#eb6f92"
 
 [menu]
     [[menu.main]]
         identifier = "examplework"
-        url = "/examples/"
+        url = "/examplework/"
         name = "Example Work"
         weight = 2
     [[menu.main]]
