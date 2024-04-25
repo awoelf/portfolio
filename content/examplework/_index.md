@@ -9,6 +9,7 @@ October 2023 - Present
 A backend designed to track items, departments, and managers for retail clients. Currently porting the backend to Postgres and GraphQL.
 * Golang
 * Postgres
+* GraphQL
 * Gin
 * Docker
 
