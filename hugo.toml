@@ -15,13 +15,21 @@ theme = "gokarna"
     accentColor = "#eb6f92"
 
 [menu]
+[[menu.main]]
+        identifier = "home"
+        pre = "<span data-feather='home'></span>"
+        url = "/"
+        name = "Home"
+        weight = 1
     [[menu.main]]
         identifier = "examplework"
+        pre = "<span data-feather='briefcase'></span>"
         url = "/examplework/"
         name = "Example Work"
         weight = 2
     [[menu.main]]
         identifier = "resume"
+        pre = "<span data-feather='file-text'></span>"
         url = "/resume/"
         name = "Resume"
         weight = 3
